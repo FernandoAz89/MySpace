@@ -1,0 +1,82 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  width: 70vw;
+  height: 60vh;
+  background-image: url(/myspace/img/re1.jpg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: border-box;
+  margin-left: 200px;
+  color: aliceblue;
+}
+
+/* Titulo do Site */
+div#title h1 {
+  border: 1px blue solid;
+  width: 50vw;
+  height: 15vh;
+  align-items: center;
+  display: inline-block;
+  margin: 10px;
+  padding: 30px 250px;
+  background-color: #a0240d;
+  color: aliceblue;
+}
+
+header,
+h1 {
+  text-align: left;
+}
+strong {
+  color: red;
+}
+
+/* lista do menu a esquerda */
+div#list_of_menu {
+  margin-top: 70px;
+  display: inline-block;
+}
+
+ul#list_esc li a {
+  list-style: none;
+  border: 1px #a0240d solid;
+  color: aliceblue;
+  width: 6vw;
+  height: 5vh;
+  background-color: #eb3c2f;
+  text-align: center;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+img#initImage {
+  width: 50vw;
+  display: inline-block;
+}
+
+h2 {
+  color: white;
+}
+
+div#text {
+  color: aliceblue;
+}
+
+div#photos {
+  display: inline;
+}
+img {
+  width: 50vw;
+  height: 70vh;
+}
